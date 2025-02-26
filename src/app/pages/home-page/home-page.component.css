@@ -1,0 +1,21 @@
+.wrapper {
+    height: calc(100vh - 60px); /* Adjust 60px based on button height */
+    width: 100%;
+    position: relative;
+  }
+  
+  google-map {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  
+  /* Ensure button stays at the bottom */
+  .button-container {
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    background: white; /* Optional: To prevent overlap on map */
+  }
